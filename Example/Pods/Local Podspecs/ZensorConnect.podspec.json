@@ -1,0 +1,22 @@
+{
+  "name": "ZensorConnect",
+  "version": "0.1.0",
+  "summary": "A short description of ZensorConnect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nothing2say/ZensorConnect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nothing2say": "nothing2say.studio@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nothing2say/ZensorConnect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZensorConnect/Classes/**/*"
+}

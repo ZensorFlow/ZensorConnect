@@ -1,0 +1,6 @@
+framework module ZensorConnect {
+  umbrella header "ZensorConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}

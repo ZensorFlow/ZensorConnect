@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A1BD22CE2FA12DD48E744F2CA81F1F /* Pods-ZensorConnect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC13706D82E78C85D4386BFF651E7F /* Pods-ZensorConnect_Example-dummy.m */; };
+		502F04688B1A8D8B7151D36CA4F173E9 /* Pods-ZensorConnect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A19C07100B4E8447AF19C1208D900CB /* Pods-ZensorConnect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67BE08F5BEF4294146FE6475FE8876B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7564BCB26B0E563C5FF8965F5907DA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A3532DF8E3CAACF91EB0E1FAB4F3015 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */; };
+		D9E2AB1B63F195BFF3642E697E330989 /* ZensorConnect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FA4818EE37A33CEE002F7A4BCCA64B /* ZensorConnect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1660D4163178F5AD2A0F738E23EF120 /* Pods-ZensorConnect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1AC67674470FFE86A389CCC9E5A697 /* Pods-ZensorConnect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E698ECED5F03E4F8D9EEF5B58AB8F49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E948D7BA94FFA09923475364688FC941 /* Pods-ZensorConnect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94315D786675C184D604E97BA3E6C966 /* Pods-ZensorConnect_Tests-dummy.m */; };
+		F65D14978253ADF048B45B1F9F90615D /* ZensorConnect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C774DCABB7BB0C2BA678EB3859509 /* ZensorConnect-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B07BA6CE542CFAA23027C3A67BD341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92107FDE0E5FF15A1F03229024CA035C;
+			remoteInfo = "Pods-ZensorConnect_Example";
+		};
+		C8BB21957A61E474F48D473F3F1156FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81E1308540BA6EC98820E77D6CD4B87;
+			remoteInfo = ZensorConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0900CB6BB499550745097CD7695CE770 /* ZensorConnect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZensorConnect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		228E96A0923F69036BD0BAD967338169 /* Pods-ZensorConnect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZensorConnect_Example.modulemap"; sourceTree = "<group>"; };
+		2A0302EEDDC9581CD558E8E1ED6ACC2F /* Pods-ZensorConnect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A168793E2C667FA71BF8C8FB690D778 /* Pods-ZensorConnect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZensorConnect_Tests.modulemap"; sourceTree = "<group>"; };
+		362D9B75183EF02A7AE6A75D6CDA7F7A /* ZensorConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZensorConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7117F968A6BEEE72F7291465B8C52F /* ZensorConnect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZensorConnect-prefix.pch"; sourceTree = "<group>"; };
+		3F07B85E26BB11EED055ADF3894055DE /* Pods_ZensorConnect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZensorConnect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409990C17A66D9984E9C3ABB0898D0A0 /* Pods-ZensorConnect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZensorConnect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4379F37260AA89F16A613B92948DB331 /* Pods-ZensorConnect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZensorConnect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45BC20DE84A33AF4BEE36EE220797ED9 /* Pods_ZensorConnect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZensorConnect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487F59CB5C85A3C6DAE1067E25EF70D0 /* ZensorConnect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZensorConnect-Info.plist"; sourceTree = "<group>"; };
+		553005266BFD902C2861BC7F1D4161C2 /* ZensorConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZensorConnect.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A0C774DCABB7BB0C2BA678EB3859509 /* ZensorConnect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZensorConnect-dummy.m"; sourceTree = "<group>"; };
+		83AC13706D82E78C85D4386BFF651E7F /* Pods-ZensorConnect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZensorConnect_Example-dummy.m"; sourceTree = "<group>"; };
+		84BB65B9786F42702AD9A52B467E947A /* Pods-ZensorConnect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Tests-Info.plist"; sourceTree = "<group>"; };
+		84FA4818EE37A33CEE002F7A4BCCA64B /* ZensorConnect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZensorConnect-umbrella.h"; sourceTree = "<group>"; };
+		8A19C07100B4E8447AF19C1208D900CB /* Pods-ZensorConnect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZensorConnect_Example-umbrella.h"; sourceTree = "<group>"; };
+		94315D786675C184D604E97BA3E6C966 /* Pods-ZensorConnect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZensorConnect_Tests-dummy.m"; sourceTree = "<group>"; };
+		9735299BE54682463D6E8EFF55B6DE97 /* Pods-ZensorConnect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9890F9EA89077C618568507AC78A9EFC /* ZensorConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZensorConnect.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2126E79E061B01D5E490B44724D40D /* Pods-ZensorConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZensorConnect/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A9B68981979E4A1949E117EE359FB8E2 /* Pods-ZensorConnect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5ACD603134A1B8175AC112B2FF5F34A /* Pods-ZensorConnect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6181FA20B411EB80BEBFB6E501EAECF /* ZensorConnect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZensorConnect.modulemap; sourceTree = "<group>"; };
+		C73D855516D8731ACEC11510D3A11D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC1AC67674470FFE86A389CCC9E5A697 /* Pods-ZensorConnect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZensorConnect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DC2D56F34715295780A81DFB215B700C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E18562E7A4CC72E456DB6F581384924C /* Pods-ZensorConnect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE46A6626A15CC7E862E6ED2BFDBB0A5 /* Pods-ZensorConnect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Example-Info.plist"; sourceTree = "<group>"; };
+		F87767B6E005FB7D4B9B710BD7743F6C /* Pods-ZensorConnect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZensorConnect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E3F078718459D4E8B4DA355C84C8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7564BCB26B0E563C5FF8965F5907DA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54136B57BD4378EBC7E64623056A0397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BE08F5BEF4294146FE6475FE8876B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9650AB9A578BA4F9E6E132D8B8903FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E698ECED5F03E4F8D9EEF5B58AB8F49C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C364D08915D1EC8859B009D46CC1BAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6181FA20B411EB80BEBFB6E501EAECF /* ZensorConnect.modulemap */,
+				7A0C774DCABB7BB0C2BA678EB3859509 /* ZensorConnect-dummy.m */,
+				487F59CB5C85A3C6DAE1067E25EF70D0 /* ZensorConnect-Info.plist */,
+				3B7117F968A6BEEE72F7291465B8C52F /* ZensorConnect-prefix.pch */,
+				84FA4818EE37A33CEE002F7A4BCCA64B /* ZensorConnect-umbrella.h */,
+				553005266BFD902C2861BC7F1D4161C2 /* ZensorConnect.debug.xcconfig */,
+				9890F9EA89077C618568507AC78A9EFC /* ZensorConnect.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZensorConnect";
+			sourceTree = "<group>";
+		};
+		4544BBD7D26EC9BFAD7DE66E74A18434 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C73D855516D8731ACEC11510D3A11D6A /* LICENSE */,
+				DC2D56F34715295780A81DFB215B700C /* README.md */,
+				0900CB6BB499550745097CD7695CE770 /* ZensorConnect.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6219488629F3A11213BF3EA96F91912F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DDBE11337470FC217BB87A95B2E8EC /* ZensorConnect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6CCA7646E380845B8AC54C5E087A72CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				736A80D1B9CDEA53C6D3081840F83D31 /* Pods-ZensorConnect_Example */,
+				EE427924C4A4B825633690481DE99C50 /* Pods-ZensorConnect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		736A80D1B9CDEA53C6D3081840F83D31 /* Pods-ZensorConnect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				228E96A0923F69036BD0BAD967338169 /* Pods-ZensorConnect_Example.modulemap */,
+				F87767B6E005FB7D4B9B710BD7743F6C /* Pods-ZensorConnect_Example-acknowledgements.markdown */,
+				2A0302EEDDC9581CD558E8E1ED6ACC2F /* Pods-ZensorConnect_Example-acknowledgements.plist */,
+				83AC13706D82E78C85D4386BFF651E7F /* Pods-ZensorConnect_Example-dummy.m */,
+				409990C17A66D9984E9C3ABB0898D0A0 /* Pods-ZensorConnect_Example-frameworks.sh */,
+				EE46A6626A15CC7E862E6ED2BFDBB0A5 /* Pods-ZensorConnect_Example-Info.plist */,
+				8A19C07100B4E8447AF19C1208D900CB /* Pods-ZensorConnect_Example-umbrella.h */,
+				9E2126E79E061B01D5E490B44724D40D /* Pods-ZensorConnect_Example.debug.xcconfig */,
+				B5ACD603134A1B8175AC112B2FF5F34A /* Pods-ZensorConnect_Example.release.xcconfig */,
+			);
+			name = "Pods-ZensorConnect_Example";
+			path = "Target Support Files/Pods-ZensorConnect_Example";
+			sourceTree = "<group>";
+		};
+		87DDBE11337470FC217BB87A95B2E8EC /* ZensorConnect */ = {
+			isa = PBXGroup;
+			children = (
+				A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */,
+				4544BBD7D26EC9BFAD7DE66E74A18434 /* Pod */,
+				3C364D08915D1EC8859B009D46CC1BAC /* Support Files */,
+			);
+			name = ZensorConnect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1C596EC81A4E75F0FC7B9AE3A69C59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F07B85E26BB11EED055ADF3894055DE /* Pods_ZensorConnect_Example.framework */,
+				45BC20DE84A33AF4BEE36EE220797ED9 /* Pods_ZensorConnect_Tests.framework */,
+				362D9B75183EF02A7AE6A75D6CDA7F7A /* ZensorConnect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6219488629F3A11213BF3EA96F91912F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B1C596EC81A4E75F0FC7B9AE3A69C59F /* Products */,
+				6CCA7646E380845B8AC54C5E087A72CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE427924C4A4B825633690481DE99C50 /* Pods-ZensorConnect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A168793E2C667FA71BF8C8FB690D778 /* Pods-ZensorConnect_Tests.modulemap */,
+				4379F37260AA89F16A613B92948DB331 /* Pods-ZensorConnect_Tests-acknowledgements.markdown */,
+				A9B68981979E4A1949E117EE359FB8E2 /* Pods-ZensorConnect_Tests-acknowledgements.plist */,
+				94315D786675C184D604E97BA3E6C966 /* Pods-ZensorConnect_Tests-dummy.m */,
+				84BB65B9786F42702AD9A52B467E947A /* Pods-ZensorConnect_Tests-Info.plist */,
+				DC1AC67674470FFE86A389CCC9E5A697 /* Pods-ZensorConnect_Tests-umbrella.h */,
+				E18562E7A4CC72E456DB6F581384924C /* Pods-ZensorConnect_Tests.debug.xcconfig */,
+				9735299BE54682463D6E8EFF55B6DE97 /* Pods-ZensorConnect_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZensorConnect_Tests";
+			path = "Target Support Files/Pods-ZensorConnect_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14FDB7728A9BC63ED33C23631A4A6F3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F04688B1A8D8B7151D36CA4F173E9 /* Pods-ZensorConnect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D802D7F0B7FE6DCF04347CFAE6222711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E2AB1B63F195BFF3642E697E330989 /* ZensorConnect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2EF2BB04DC73C6E94AF142B2DBDDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1660D4163178F5AD2A0F738E23EF120 /* Pods-ZensorConnect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2541046A32F06FDAB17496B25F55B53A /* Pods-ZensorConnect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EDD6C269F90A968B72F4876AE152CE0 /* Build configuration list for PBXNativeTarget "Pods-ZensorConnect_Tests" */;
+			buildPhases = (
+				EBD2EF2BB04DC73C6E94AF142B2DBDDE /* Headers */,
+				CD46296DBF6474020AC9B67B23FABDC8 /* Sources */,
+				54136B57BD4378EBC7E64623056A0397 /* Frameworks */,
+				03284C361051C028604319A47ABF4F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606F7BF7A7E83A982504CE3474918607 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZensorConnect_Tests";
+			productName = Pods_ZensorConnect_Tests;
+			productReference = 45BC20DE84A33AF4BEE36EE220797ED9 /* Pods_ZensorConnect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92107FDE0E5FF15A1F03229024CA035C /* Pods-ZensorConnect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4FED31A7A2656B7B7B62D775686EB5 /* Build configuration list for PBXNativeTarget "Pods-ZensorConnect_Example" */;
+			buildPhases = (
+				14FDB7728A9BC63ED33C23631A4A6F3F /* Headers */,
+				F88D680BAAEEA764A101D16A876269D6 /* Sources */,
+				50E3F078718459D4E8B4DA355C84C8AE /* Frameworks */,
+				CC1A215E4781F1595A3AE40B800480DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902263F4AB9BF5B6C16771852775D09D /* PBXTargetDependency */,
+			);
+			name = "Pods-ZensorConnect_Example";
+			productName = Pods_ZensorConnect_Example;
+			productReference = 3F07B85E26BB11EED055ADF3894055DE /* Pods_ZensorConnect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E81E1308540BA6EC98820E77D6CD4B87 /* ZensorConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADF2284EEF6E8CECCBA055DB861CDCF /* Build configuration list for PBXNativeTarget "ZensorConnect" */;
+			buildPhases = (
+				D802D7F0B7FE6DCF04347CFAE6222711 /* Headers */,
+				CBBDFD4C3F8FE6E8F81CF755385ABC84 /* Sources */,
+				E9650AB9A578BA4F9E6E132D8B8903FB /* Frameworks */,
+				37D86373E268BF0B43090191C20FF841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZensorConnect;
+			productName = ZensorConnect;
+			productReference = 362D9B75183EF02A7AE6A75D6CDA7F7A /* ZensorConnect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E81E1308540BA6EC98820E77D6CD4B87 = {
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B1C596EC81A4E75F0FC7B9AE3A69C59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92107FDE0E5FF15A1F03229024CA035C /* Pods-ZensorConnect_Example */,
+				2541046A32F06FDAB17496B25F55B53A /* Pods-ZensorConnect_Tests */,
+				E81E1308540BA6EC98820E77D6CD4B87 /* ZensorConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03284C361051C028604319A47ABF4F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D86373E268BF0B43090191C20FF841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1A215E4781F1595A3AE40B800480DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBBDFD4C3F8FE6E8F81CF755385ABC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3532DF8E3CAACF91EB0E1FAB4F3015 /* ReplaceMe.swift in Sources */,
+				F65D14978253ADF048B45B1F9F90615D /* ZensorConnect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD46296DBF6474020AC9B67B23FABDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E948D7BA94FFA09923475364688FC941 /* Pods-ZensorConnect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88D680BAAEEA764A101D16A876269D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1BD22CE2FA12DD48E744F2CA81F1F /* Pods-ZensorConnect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606F7BF7A7E83A982504CE3474918607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZensorConnect_Example";
+			target = 92107FDE0E5FF15A1F03229024CA035C /* Pods-ZensorConnect_Example */;
+			targetProxy = A3B07BA6CE542CFAA23027C3A67BD341 /* PBXContainerItemProxy */;
+		};
+		902263F4AB9BF5B6C16771852775D09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZensorConnect;
+			target = E81E1308540BA6EC98820E77D6CD4B87 /* ZensorConnect */;
+			targetProxy = C8BB21957A61E474F48D473F3F1156FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F7217D99E99F64F76F3AE7A1D89B619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18562E7A4CC72E456DB6F581384924C /* Pods-ZensorConnect_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZensorConnect_Tests/Pods-ZensorConnect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZensorConnect_Tests/Pods-ZensorConnect_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		247EB6A57307914306E72241812C8696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9735299BE54682463D6E8EFF55B6DE97 /* Pods-ZensorConnect_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZensorConnect_Tests/Pods-ZensorConnect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZensorConnect_Tests/Pods-ZensorConnect_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE411400184F1E6612EA3F171C4A89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9890F9EA89077C618568507AC78A9EFC /* ZensorConnect.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZensorConnect/ZensorConnect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZensorConnect/ZensorConnect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZensorConnect/ZensorConnect.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = ZensorConnect;
+				PRODUCT_NAME = ZensorConnect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		856F20228B42E1ACF253316AA1D06F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2126E79E061B01D5E490B44724D40D /* Pods-ZensorConnect_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZensorConnect_Example/Pods-ZensorConnect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZensorConnect_Example/Pods-ZensorConnect_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBAD57A35001FA7D32E869431F7021F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553005266BFD902C2861BC7F1D4161C2 /* ZensorConnect.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZensorConnect/ZensorConnect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZensorConnect/ZensorConnect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZensorConnect/ZensorConnect.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = ZensorConnect;
+				PRODUCT_NAME = ZensorConnect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC64919E5873F4E2A95B9FBC4CFF3B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5ACD603134A1B8175AC112B2FF5F34A /* Pods-ZensorConnect_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZensorConnect_Example/Pods-ZensorConnect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZensorConnect_Example/Pods-ZensorConnect_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EDD6C269F90A968B72F4876AE152CE0 /* Build configuration list for PBXNativeTarget "Pods-ZensorConnect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7217D99E99F64F76F3AE7A1D89B619 /* Debug */,
+				247EB6A57307914306E72241812C8696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4FED31A7A2656B7B7B62D775686EB5 /* Build configuration list for PBXNativeTarget "Pods-ZensorConnect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856F20228B42E1ACF253316AA1D06F3B /* Debug */,
+				CC64919E5873F4E2A95B9FBC4CFF3B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADF2284EEF6E8CECCBA055DB861CDCF /* Build configuration list for PBXNativeTarget "ZensorConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAD57A35001FA7D32E869431F7021F9 /* Debug */,
+				7EE411400184F1E6612EA3F171C4A89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

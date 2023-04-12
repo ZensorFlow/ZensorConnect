@@ -1,0 +1,16 @@
+PODS:
+  - ZensorConnect (0.1.0)
+
+DEPENDENCIES:
+  - ZensorConnect (from `../`)
+
+EXTERNAL SOURCES:
+  ZensorConnect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZensorConnect: c568b8d1bc3dc5ea139846db77a807461005b217
+
+PODFILE CHECKSUM: d3deb08362a0b53643eaae13d65b9995e4ab9544
+
+COCOAPODS: 1.12.0
