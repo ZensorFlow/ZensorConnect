@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZensorConnect_Example' do
+  pod 'ZensorConnect', :path => '../'
+
+  target 'ZensorConnect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
