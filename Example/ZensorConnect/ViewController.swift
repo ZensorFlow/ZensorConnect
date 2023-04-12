@@ -13,7 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("TestUser")
+        
+        if E4Connect.checkConnection("--- Empatica API ---") {
+            print(E4Connect.zensorMessage())
+        } else {
+            print(E4Connect.debugMessage())
+        }
     }
 
     override func didReceiveMemoryWarning() {

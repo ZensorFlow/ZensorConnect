@@ -11,7 +11,7 @@
 		502F04688B1A8D8B7151D36CA4F173E9 /* Pods-ZensorConnect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A19C07100B4E8447AF19C1208D900CB /* Pods-ZensorConnect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67BE08F5BEF4294146FE6475FE8876B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7564BCB26B0E563C5FF8965F5907DA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9A3532DF8E3CAACF91EB0E1FAB4F3015 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */; };
+		8A501B1A29E6A75C00BEF0AF /* E4Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A501B1929E6A75C00BEF0AF /* E4Connect.swift */; };
 		D9E2AB1B63F195BFF3642E697E330989 /* ZensorConnect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FA4818EE37A33CEE002F7A4BCCA64B /* ZensorConnect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1660D4163178F5AD2A0F738E23EF120 /* Pods-ZensorConnect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1AC67674470FFE86A389CCC9E5A697 /* Pods-ZensorConnect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E698ECED5F03E4F8D9EEF5B58AB8F49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -55,12 +55,12 @@
 		84BB65B9786F42702AD9A52B467E947A /* Pods-ZensorConnect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Tests-Info.plist"; sourceTree = "<group>"; };
 		84FA4818EE37A33CEE002F7A4BCCA64B /* ZensorConnect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZensorConnect-umbrella.h"; sourceTree = "<group>"; };
 		8A19C07100B4E8447AF19C1208D900CB /* Pods-ZensorConnect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZensorConnect_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A501B1929E6A75C00BEF0AF /* E4Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E4Connect.swift; sourceTree = "<group>"; };
 		94315D786675C184D604E97BA3E6C966 /* Pods-ZensorConnect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZensorConnect_Tests-dummy.m"; sourceTree = "<group>"; };
 		9735299BE54682463D6E8EFF55B6DE97 /* Pods-ZensorConnect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9890F9EA89077C618568507AC78A9EFC /* ZensorConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZensorConnect.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2126E79E061B01D5E490B44724D40D /* Pods-ZensorConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZensorConnect/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A9B68981979E4A1949E117EE359FB8E2 /* Pods-ZensorConnect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZensorConnect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5ACD603134A1B8175AC112B2FF5F34A /* Pods-ZensorConnect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZensorConnect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6181FA20B411EB80BEBFB6E501EAECF /* ZensorConnect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZensorConnect.modulemap; sourceTree = "<group>"; };
@@ -170,12 +170,21 @@
 		87DDBE11337470FC217BB87A95B2E8EC /* ZensorConnect */ = {
 			isa = PBXGroup;
 			children = (
-				A7580C453F4D5014987EA0C79BA4F72A /* ReplaceMe.swift */,
+				8A501B1829E6A74A00BEF0AF /* Source */,
 				4544BBD7D26EC9BFAD7DE66E74A18434 /* Pod */,
 				3C364D08915D1EC8859B009D46CC1BAC /* Support Files */,
 			);
 			name = ZensorConnect;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		8A501B1829E6A74A00BEF0AF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A501B1929E6A75C00BEF0AF /* E4Connect.swift */,
+			);
+			name = Source;
+			path = ZensorConnect/Source;
 			sourceTree = "<group>";
 		};
 		B1C596EC81A4E75F0FC7B9AE3A69C59F /* Products */ = {
@@ -320,7 +329,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E81E1308540BA6EC98820E77D6CD4B87 = {
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -373,8 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3532DF8E3CAACF91EB0E1FAB4F3015 /* ReplaceMe.swift in Sources */,
 				F65D14978253ADF048B45B1F9F90615D /* ZensorConnect-dummy.m in Sources */,
+				8A501B1A29E6A75C00BEF0AF /* E4Connect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9890F9EA89077C618568507AC78A9EFC /* ZensorConnect.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,6 +640,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 553005266BFD902C2861BC7F1D4161C2 /* ZensorConnect.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -655,6 +666,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
