@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/ZensorFlow/ZensorConnect'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nothing2say' => 'nothing2say.studio@gmail.com' }
+  s.author           = { 'nothing2say' => 'https://nothing2say.dev' }
   s.source           = { :git => 'https://github.com/ZensorFlow/ZensorConnect.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files = 'ZensorConnect/Source/**/*'
-  s.swift_version = '5.0'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'ZensorConnect' => ['ZensorConnect/Assets/*.png']

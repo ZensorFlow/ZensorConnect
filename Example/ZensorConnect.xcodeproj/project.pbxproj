@@ -485,7 +485,7 @@
 			baseConfigurationReference = 4EBCBC0D8BD03EE9C0265DA7 /* Pods-ZensorConnect_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C39N2S4ZKJ;
 				INFOPLIST_FILE = ZensorConnect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -505,7 +505,7 @@
 			baseConfigurationReference = BD3DAC84290287F00B2D913D /* Pods-ZensorConnect_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C39N2S4ZKJ;
 				INFOPLIST_FILE = ZensorConnect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,7 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E234113277672520E19DC4E4 /* Pods-ZensorConnect_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C39N2S4ZKJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,7 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4253FB76933A4DE492C33D2 /* Pods-ZensorConnect_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C39N2S4ZKJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
